@@ -1,0 +1,23 @@
+.header__portafolio-menu {
+    display: flex;
+    font-weight: 400;
+    font-size: 0.875rem;
+}
+
+.header__portafolio-items {
+    display: none;
+}
+
+.header__portafolio-items:last-child {
+    display: flex;
+}
+
+@media screen and (min-width:1440px) {
+    .header__portafolio-items {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        margin-left: 2rem;
+    }
+  
+}

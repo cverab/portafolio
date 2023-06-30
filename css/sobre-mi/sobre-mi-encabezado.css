@@ -1,0 +1,12 @@
+.sobre-mi__encabezado {
+    font-size: 1.375rem;
+    font-weight: 700;
+    margin-bottom: 1rem;
+}
+
+@media screen and (min-width:1440px) {
+    .sobre-mi__encabezado {
+        font-size: 2rem;
+        margin-bottom: 2rem;
+    }
+}

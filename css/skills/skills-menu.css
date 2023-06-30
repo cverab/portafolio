@@ -1,0 +1,26 @@
+.skills__menu {
+    list-style: none;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.skills__menu-item {
+    background-color: white;
+    width: 48%;
+    height: 118px;
+    margin-bottom: 1rem;
+}
+
+@media screen and (min-width:768px) {
+    .skills__menu-item {
+        width: 31%;
+    }
+}
+
+@media screen and (min-width:1440px) {
+    .skills__menu-item {
+        height: 174px;
+        width: 15%;
+    }
+}

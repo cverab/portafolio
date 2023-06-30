@@ -1,0 +1,16 @@
+.perfil__redes-lista {
+    display: flex;
+    list-style: none;
+    justify-content: space-around;
+}
+
+.perfil__redes-item {
+    font-size: 0.875rem;
+    font-weight: 700;
+}
+
+@media screen and (min-widrh:768px) {
+    .perfil__redes-item {
+        font-size: 1rem;
+    }
+}

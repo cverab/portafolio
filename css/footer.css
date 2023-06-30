@@ -1,0 +1,9 @@
+.footer {
+    padding: 2rem;
+    text-align: center;
+    font-family: var(--raleway);
+}
+
+.footer__parrafo {
+    font-size: 1rem;
+}

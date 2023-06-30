@@ -1,0 +1,12 @@
+.header__portafolio-izq {
+    display: flex;
+}
+
+.header__portafolio-logo {
+    width: 1rem;
+    height: 1rem;
+}
+
+.header__portafolio-nombre {
+    font-weight: 700;
+}

@@ -1,0 +1,20 @@
+.header__portafolio {
+    display: flex;
+    justify-content: space-between;
+    text-align: center;
+    background-color: var(--fondo-claro);
+    font-family: var(--raleway);
+    padding: 1rem;
+}
+
+@media screen and (min-width:768px) {
+    .header__portafolio {
+        padding: 1rem 2rem;
+    }   
+}
+
+@media screen and (min-width:1440px) {
+    .header__portafolio {
+        margin: 0 10%;
+    }   
+}

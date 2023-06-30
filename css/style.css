@@ -1,0 +1,12 @@
+:root {
+    --raleway: 'Raleway', sans-serif;
+    --fondo-claro: #F5F5F5;
+    --fondo-azulado: #EAF2FD;
+    --fuente-texto: #464646;
+    --anchor: #464646
+}
+
+a {
+    color: var(--anchor);
+    text-decoration: none;
+}
