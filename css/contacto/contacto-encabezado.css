@@ -22,4 +22,7 @@
         font-weight: 700;
         margin-bottom: 2rem;
     }
+    .contacto__menu {
+        display: flex;
+    }
 }

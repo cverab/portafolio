@@ -1,9 +1,12 @@
+.header {
+    background-color: var(--fondo-claro);
+    font-family: var(--raleway);
+}
+
 .header__portafolio {
     display: flex;
     justify-content: space-between;
     text-align: center;
-    background-color: var(--fondo-claro);
-    font-family: var(--raleway);
     padding: 1rem;
 }
 
@@ -16,5 +19,6 @@
 @media screen and (min-width:1440px) {
     .header__portafolio {
         margin: 0 10%;
+        width: 71rem auto;
     }   
 }
