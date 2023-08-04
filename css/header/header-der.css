@@ -6,10 +6,13 @@
 
 .header__portafolio-items {
     display: none;
+    font-size: 1rem;
 }
 
 .header__portafolio-items:last-child {
     display: flex;
+    font-size: 0.875rem;
+    font-weight: 700;
 }
 
 @media screen and (min-width:1440px) {
@@ -18,6 +21,6 @@
         flex-direction: row;
         justify-content: space-between;
         margin-left: 2rem;
+        font-size: 1rem;
     }
-  
 }

@@ -12,6 +12,22 @@
     margin-bottom: 1rem;
 }
 
+.hobbies__menu-hobbie {
+    margin: 1rem;
+}
+
+.hobbies__menu-hobbie-icon {
+    font-size: 2rem;
+    color: #2A7AE4
+}
+
+.hobbies__menu-hobbie-text {
+    margin-top: 0.5rem;
+    font-family: var(--raleway);
+    font-size: 1rem;
+    font-weight: 700;
+}
+
 @media screen and (min-width:768px) {
     .hobbies__menu-item {
         width: 31%;
