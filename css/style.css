@@ -6,6 +6,10 @@
     --anchor: #464646
 }
 
+* {
+    list-style: none;
+}
+
 a {
     color: var(--anchor);
     text-decoration: none;

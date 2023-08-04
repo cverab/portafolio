@@ -6,6 +6,7 @@
 }
 
 .hobbies__menu-item {
+    display: flex;
     background-color: white;
     width: 48%;
     height: 118px;
@@ -14,6 +15,11 @@
 
 .hobbies__menu-hobbie {
     margin: 1rem;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    justify-content: flex-end;
+    align-items: flex-start;
 }
 
 .hobbies__menu-hobbie-icon {

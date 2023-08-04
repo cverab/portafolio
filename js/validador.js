@@ -44,12 +44,9 @@ function mostrarMensajeDeError(tipoDeInput, input) {
 }
 
 export function validarTextarea() {
-    const textarea1 = document.getElementById("textarea").value;
-    const textarea2 = textarea1.length;
-    if (textarea2 >= 300) {
-        console.log(textarea2)
-    }
-    else {
-        console.log(textarea2)
+    const textarea = document.getElementById("textarea");
+    const textareaLongitud = textarea.value.length;
+    if (textareaLongitud >= 300) {
+        textarea.setCustomValidity("El campo mensaje debe contener al menos 1 caracteres y máximo 300.")
     }
 }

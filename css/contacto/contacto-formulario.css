@@ -20,6 +20,7 @@
 .contacto__formulario-nombre-nombre {
     border-style: none;
     width: 100%;
+    outline: none;
 }
 
 .contacto__formulario-nombre-nombre::placeholder {
@@ -49,6 +50,7 @@
 .contacto__formulario-correo-correo {
     border-style: none;
     width: 100%;
+    outline: none;
 }
 
 .contacto__formulario-correo-correo::placeholder {
@@ -72,6 +74,7 @@
     width: 100%;
     margin-bottom: 0.5rem;
     border-style: none;
+    outline: none;
 }
 
 .contacto__formulario-asunto::placeholder {
@@ -98,6 +101,7 @@
     margin-bottom: 0.5rem;
     word-wrap: normal;
     word-break: break-all;
+    outline: none;
 }
 .contacto__formulario-texto-text::placeholder {
     font: var(--raleway);

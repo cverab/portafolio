@@ -5,6 +5,7 @@
 }
 
 .skills__menu-item {
+    display: flex;
     background-color: white;
     width: 48%;
     height: 118px;
@@ -13,7 +14,11 @@
 
 .skills__menu-skill {
     margin: 1rem;
-    display: block;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    justify-content: flex-end;
+    align-items: flex-start;
 }
 
 .skills__menu-skill-icon {
