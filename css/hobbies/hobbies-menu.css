@@ -2,7 +2,8 @@
     list-style: none;
     display: flex;
     flex-wrap: wrap;
-    justify-content: space-between;
+    justify-content: flex-start;
+    gap: 0.5rem;
 }
 
 .hobbies__menu-item {
@@ -10,7 +11,6 @@
     background-color: white;
     width: 48%;
     height: 118px;
-    margin-bottom: 1rem;
 }
 
 .hobbies__menu-hobbie {
@@ -35,6 +35,10 @@
 }
 
 @media screen and (min-width:768px) {
+    .hobbies__menu {
+        gap: 1rem;
+    }
+    
     .hobbies__menu-item {
         width: 31%;
     }

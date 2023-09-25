@@ -88,8 +88,8 @@
 
 @media screen and (min-width:768px) {
     .experiencia__menu-item-imagen {
-        width: 704px;
-        height: 320px;
+        width: 40rem;
+        height: 20rem;
         margin-bottom: 1rem;
     }
 }
@@ -101,7 +101,7 @@
     }
 
     .experiencia__menu-item-imagen {
-        width: 752px;
+        width: 47rem;
         height: 408px;
         margin-bottom: 1rem;
     }

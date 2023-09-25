@@ -1,7 +1,8 @@
 .skills__menu {
     display: flex;
     flex-wrap: wrap;
-    justify-content: space-between;
+    justify-content: flex-start;
+    gap: 0.5rem;
 }
 
 .skills__menu-item {
@@ -9,7 +10,6 @@
     background-color: white;
     width: 48%;
     height: 118px;
-    margin-bottom: 1rem;
 }
 
 .skills__menu-skill {
@@ -34,6 +34,10 @@
 }
 
 @media screen and (min-width:768px) {
+    .skills__menu {
+        gap: 1rem;
+    }
+
     .skills__menu-item {
         width: 31%;
     }
